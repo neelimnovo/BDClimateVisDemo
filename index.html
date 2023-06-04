@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map SVG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <text class="vis-title" id="vis-title">Temperature</text>
+        <text class="vis-subtitle" id="vis-subtitle">Less Climate Change</text>
+    </div>
+
+    <div class="container">
+        <div id="tooltip"></div>
+        <svg id="map-vis" class="map"></svg>
+        <div id="district-info" class="district-content"></div>
+    </div>
+    <div class="bottom-toolbar">
+        <select id="vis-variable" class="variable-box">
+            <option value="temperature">Mean Temperature</option>
+            <option value="ncdd">Number of Cooling Degree Days</option>
+            <option value="nhotdays">Number of Hot Days (> 40°C)</option>
+        </select>
+        <!-- A slider titled climate change with two discrete values on the left and right labelled "less" and "more" -->
+        <div class="climate-change-slider">
+            <text class="climate-change-text">Climate Change</text>
+            <text id="cc-option1">Less</text>
+            <text id="cc-option2">More</text>
+            <div class="climate-change-slider-container">
+                <input type="range" min="0" max="1" value="0" step="1" class="slider" id="climate-change-slider">
+    </div>
+
+    
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/choroplethMap.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

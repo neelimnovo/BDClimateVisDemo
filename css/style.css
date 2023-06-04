@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    /* height: 91vh; */
+}
+
+.map {
+    width: 44.444%;
+    padding: 20px;
+    height: 1100px;
+}
+
+.district-content {
+    width: 56.666%;
+    overflow-y: scroll;
+    padding: 20px;
+    font-size: 48px;
+    border: 1px solid grey;
+    height: 1100px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f5f5f5;
+}
+
+.district-content.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.district-content.hide {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.status-bar {
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.vis-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+}
+
+.vis-subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+.bottom-toolbar {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    background-color: grey;
+    padding: 10px;
+}
+
+
+/* Combobox */
+select {
+    padding: 7px 40px 7px 12px;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #E8EAED;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098A9;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 150ms ease;
+    transform: translate(100px, 15px);
+}
+
+select:required {
+    color: #223254;
+}
+
+option {
+    color: #223254;
+}
+
+select:focus {
+    outline: none;
+    border-color: #0077FF;
+    box-shadow: 0 0 0 2px rgba(#0077FF, .2);
+}
+
+select:hover {
+    stroke: #0077FF;
+}
+
+/* Slider */
+.climate-change-slider {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    transform: translate(750px, 15px);
+}
+
+#cc-option1{
+    position: absolute;
+    transform: translate(-200px, 20px);
+}
+
+#cc-option2{
+    position: absolute;
+    transform: translate(0px, 20px);
+}
+
+/* Tooltip */
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+    border: 1px solid #ddd;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    min-width: 160px;
+    color: #333;
+}
+
+#tooltip-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#tooltip-label {
+    display: inline-block;
+    vertical-align: middle;
+}

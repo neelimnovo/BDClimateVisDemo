@@ -1,0 +1,44 @@
+{
+    "type":"FeatureCollection",
+    "features": [
+        {
+            "type":"Feature",
+            "id":"test_layer_1_1.1",
+            "geometry": {
+                "type":"MultiPolygon",
+                "coordinates": []
+            },
+            "geometry_name":"the_geom",
+            "properties": {
+                "ID_1":1,
+                "NAME_1":"Barisal",
+                "ID_2":1,
+                "NAME_2":"Barisal",
+                "ID_3":1,
+                "NAME_3":"Barisal",
+                "ID_4":1,
+                "NAME_4":"Agailjhara"
+            }
+        },
+        {
+            "type":"Feature",
+            "id":"test_layer_1_1.1",
+            "geometry":{
+            "type":"MultiPolygon",
+            "coordinates": []
+            },
+            "geometry_name":"the_geom",
+            "properties":{
+                "ID_1":1,
+                "NAME_1":"Barisal",
+                "ID_2":1,
+                "NAME_2":"Barisal",
+                "ID_3":1,
+                "NAME_3":"Barisal",
+                "ID_4":1,
+                "NAME_4":"Agailjhara"
+            }
+        }
+    ]
+}
+    
