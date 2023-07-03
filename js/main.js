@@ -5,7 +5,7 @@ let data, bdMap;
 (async function loadData() {
     const geojson = await d3.json("data/bd_districts.geojson");
     const generatedjson = await d3.json("data/generated_districts.json");
-    const stories = await d3.json("data/climate_stories.json");
+    const stories = await d3.json("data/new_climate_stories.json");
     data = {
         geojson: geojson,
         climateData: generatedjson.districts,

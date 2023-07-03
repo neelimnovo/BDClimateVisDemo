@@ -2,8 +2,8 @@ class ChoroplethMap {
     constructor(_config, _data, _dispatcher) {
         this.config = {
             parentElement: _config.parentElement,
-            containerWidth: _config.containerWidth || 1000,
-            containerHeight: _config.containerHeight || 1100,
+            containerWidth: _config.containerWidth || 600,
+            containerHeight: _config.containerHeight || 580,
             margin: _config.margin || { top: 10, right: 10, bottom: 10, left: 10 },
             tooltipPadding: _config.tooltipPadding || 15,
         }
@@ -14,7 +14,7 @@ class ChoroplethMap {
 
         this.selectedVariable = "temperature";
 
-        let minMax = this.printData();
+        let minMax = this.getMinMax();
 
         this.variableDomain = {
             temperature: minMax['meanTemperature'],
@@ -66,6 +66,22 @@ class ChoroplethMap {
         // Define the path generator
         vis.path = d3.geoPath()
             .projection(vis.projection);
+        
+        // Append the map group to the SVG element
+        vis.map = d3.select(vis.config.parentElement)
+            .attr("width", vis.containerWidth)
+            .attr("height", vis.containerHeight)
+            .append("g");
+
+        d3.select("#climate-change-slider")
+            .on("click", (event, d) => {
+                // TODO Change the subset of data accordingly and call updateVis
+                if (event.target.value == "0") {
+                    d3.select("#vis-subtitle").text("Less Climate Change")
+                } else if (event.target.value == "1") {
+                    d3.select("#vis-subtitle").text("More Climate Change")
+                }
+            })
 
         vis.renderVis();
     }
@@ -122,9 +138,10 @@ class ChoroplethMap {
         // Add a variable title
         vis.legend.append("text")
             .attr("y", -20)
-            .attr("x", 0)
+            .attr("x", 100)
             .attr("dy", "1em")
-            // .style("text-anchor", "middle")
+            .attr("font-size", "0.9em")
+            .style("text-anchor", "middle")
             .text(vis.variableLabelMap[vis.selectedVariable]); 
     }
 
@@ -139,10 +156,6 @@ class ChoroplethMap {
     renderVis() {
         let vis = this;
 
-        // Append the map to the SVG element
-        vis.map = d3.select(vis.config.parentElement)
-            .attr("width", vis.containerWidth)
-            .attr("height", vis.containerHeight);
 
         // Draw the map outlines
         vis.map.selectAll("path")
@@ -183,6 +196,10 @@ class ChoroplethMap {
                 }, 300); // transition duration
             });
 
+            vis.map.call(d3.zoom().on("zoom",  (e) => {
+                vis.map.attr("transform", e.transform)
+            }));
+
             vis.drawColourLegend();
 
     }
@@ -192,11 +209,9 @@ class ChoroplethMap {
         let storyDivs = ""
         let storyUrls = vis.climateStories[d.properties["NAME_3"]];
         for (let i = 0; i < storyUrls.length; i++) {
-            // let story = await this.getWebsiteDetails(storyUrls[i]);
-            // console.log(story);
             storyDivs += `
-                        <div class='district-info-content-row-label'>Story ${story[0]}</div>
-                        <div class='district-info-content-row-value'><a href='${story[1]}' target='_blank'>Link</a></div>
+                        <div class='district-info-content-row-label'><a href='${storyUrls[i]['url']}' target='_blank'>${storyUrls[i]['headline']}</a></div>
+                        <div class='district-info-content-row-value'><img src="${storyUrls[i]['image']}" width="320" height="180"></div>
                         `
         }
         let label = vis.variableLabelMap[vis.selectedVariable]
@@ -232,35 +247,8 @@ class ChoroplethMap {
         return districtData.futureData[variable];
     }
 
-    async getWebsiteDetails(url) {
-        try {
-          // Make a fetch request to the website's URL
-          const response = await fetch(url);
-      
-          // Get the HTML content from the response
-          const html = await response.text();
-      
-          // Create a temporary div element to hold the HTML content
-          const tempDiv = document.createElement('div');
-          tempDiv.innerHTML = html;
-      
-          // Extract the headlining title
-          const titleElement = tempDiv.querySelector('title');
-          const title = titleElement ? titleElement.innerText : '';
-      
-          // Extract the thumbnail preview URL if available
-          const thumbnailElement = tempDiv.querySelector('meta[property="og:image"]');
-          const thumbnail = thumbnailElement ? thumbnailElement.getAttribute('content') : '';
-      
-          // Return the extracted title and thumbnail
-          return { title, thumbnail };
-        } catch (error) {
-          console.error('Error:', error);
-          return { title: '', thumbnail: '' };
-        }
-      }
 
-    printData() {
+    getMinMax() {
         // this prints the minimum and maxiumum values for each climate variable
         let vis = this;
 
@@ -283,7 +271,7 @@ class ChoroplethMap {
         }
         );
 
-        console.log(minMax);
+        // console.log(minMax);
         return minMax;
     }
 }

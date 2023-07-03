@@ -112,32 +112,47 @@ def generate_headlines_and_images(file_path):
 
                     # Obtain the website's title
                     title = get_website_title(response.text)
-
                     # Save the thumbnail image
                     image_path = f"data/images/{district}_{i+1}.jpg"
-                    save_thumbnail_image(response.content, image_path)
-
+                    image = save_thumbnail_image(response.content, image_path)
                     # Replace the URL entry with the new object
                     urls[i] = {
                         'headline': title,
-                        'image': image_path
+                        'image': image,
+                        'url': url
                     }
+
                 except (requests.RequestException, ValueError) as e:
                     print(f"Error occurred for {url}: {e}")
 
-    with open("new_climate_stories.json", 'w') as f:
+    with open("data/new_climate_stories.json", 'w') as f:
         json.dump(data, f, indent=4)
 
 def get_website_title(html):
     soup = BeautifulSoup(html, 'html.parser')
     return soup.title.string
 
-def save_thumbnail_image(image_data, image_path):
-    with Image.open(io.BytesIO(image_data)) as img:
-        img.thumbnail((200, 200))
-        img.save(image_path)
+def save_thumbnail_image(content, image_path):
+        # Parse the HTML content
+    soup = BeautifulSoup(content, 'html.parser')
 
+    # Find the <meta> tag with the thumbnail information
+    thumbnail_meta_tag = soup.find('meta', property='og:image')
 
+    if thumbnail_meta_tag:
+        # Extract the thumbnail URL from the 'content' attribute of the <meta> tag
+        thumbnail_url = thumbnail_meta_tag['content']
+        t_response = requests.get(thumbnail_url)
+        if t_response.status_code == 200:
+            with open(image_path, 'wb+') as file:
+                file.write(t_response.content)
+            print(f"Image downloaded successfully as {image_path}")
+        else:
+            print("Failed to download the image")
+        return image_path
+    else:
+        # If no thumbnail meta tag found, return None or handle accordingly
+        return ""
 
 
 
@@ -147,4 +162,6 @@ if __name__ == '__main__':
     # save_json_districts('data/bd_districts.json')
     # sort_lines_alphabetically('data/json_districts.txt')
     # generate_district_data('data/bd_districts.json')
-    generate_headlines_and_images('climate_stories.json')
+    # print(os.getcwd())
+    generate_headlines_and_images('data/climate_stories.json')
+    
