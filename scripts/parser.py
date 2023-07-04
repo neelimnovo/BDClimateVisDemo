@@ -153,6 +153,36 @@ def save_thumbnail_image(content, image_path):
     else:
         # If no thumbnail meta tag found, return None or handle accordingly
         return ""
+    
+def convert_tsv_to_json(file_path):
+    """
+    This function converts a TSV file to a JSON file
+    Where the first row specifies the column headers
+    """
+    with open(file_path, 'r') as f:
+        # Read the first line of the file
+        headers = f.readline().strip().split('\t')
+        # Read the rest of the lines
+        lines = f.readlines()
+        # Create an empty list to store the data
+        data = []
+        # Iterate over the lines
+        for line in lines:
+            # Split the line into a list of values
+            values = line.strip().split('\t')
+            # Create an empty dictionary to store the row
+            row = {}
+            # Iterate over the headers and values
+            for header, value in zip(headers, values):
+                # Add the value to the row dictionary using the header as the key
+                row[header] = value
+            # Add the row to the data list
+            data.append(row)
+        # Create a dictionary with the data list
+        data_dict = {'data': data}
+        # Write the dictionary to a JSON file
+        with open('data/test.json', 'w') as f:
+            json.dump(data_dict, f, indent=4)
 
 
 
@@ -163,5 +193,6 @@ if __name__ == '__main__':
     # sort_lines_alphabetically('data/json_districts.txt')
     # generate_district_data('data/bd_districts.json')
     # print(os.getcwd())
-    generate_headlines_and_images('data/climate_stories.json')
+    # generate_headlines_and_images('data/climate_stories.json')
+    convert_tsv_to_json('data/data.tsv')
     

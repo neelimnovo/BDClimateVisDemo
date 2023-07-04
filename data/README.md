@@ -47,29 +47,34 @@ The [bd_districts.geojson](./bd_districts.geojson) file is the same as the one a
 
 ### Generated District Data
 
-The [generated_districts.json](./generated_districts.json) file contains generated climate variable data. For each district, I generated two keys, `historicalData` and `futureData`. For each of these keys, generated 3 sample variables to visualize. As an example:
+The [generated_districts.json](./generated_districts.json) file contains generated climate variable data. For each district, I generated two keys, `historicalData` and `futureData`. For each of these keys, generated 3 sample variables to visualize. 
+
+(UPDATE: The maxTemperature variable is based on ground truth. Historical data for max temperature was obtained from World Bank data per Bangladesh division, and assumed uniformly across all districts across that division. Delta values for future max temp projections were obtained from a Bureau of Research, Testing and Consultation (BRTC) and Bangladesh University of Engineering and Technology (BUET) Climate Vulnerability Assesment. Data from these two sources were combined to obtain future projections for the year 2050 under RCP 4.5 emission scenarios.
+One current limitation is that since the World Bank data granularity is on a division level, the temperature change values have sharp differences at division boundaries) 
+
+As an example:
 
 ```
-    {
-        "id": "6",
-        "division_id": "3",
-        "name": "Kishoreganj",
-        "bn_name": "\u0995\u09bf\u09b6\u09cb\u09b0\u0997\u099e\u09cd\u099c",
-        "lat": "24.444937",
-        "long": "90.776575",
-        "historicalData": {
-            "timeRange": "1974-2020",
-            "meanTemperature": 25.9,
-            "nCdd": 4341,
-            "nHotDays40": 25.22
-        },
-        "futureData": {
-            "timeRange": "2030-2050",
-            "meanTemperature": 26.87,
-            "nCdd": 5216,
-            "nHotDays40": 44.62
-        }
+{
+    "id": "6",
+    "division_id": "3",
+    "name": "Kishoreganj",
+    "bn_name": "\u0995\u09bf\u09b6\u09cb\u09b0\u0997\u099e\u09cd\u099c",
+    "lat": "24.444937",
+    "long": "90.776575",
+    "historicalData": {
+        "timeRange": "1995-2014",
+        "maxTemperature": 31.16,
+        "nCdd": 4341,
+        "nHotDays40": 25.22
+    },
+    "futureData": {
+        "timeRange": "2050",
+        "maxTemperature": 32.68,
+        "nCdd": 5216,
+        "nHotDays40": 44.62
     }
+}
 ```
 
 `meanTemperature` is the average projected temperature for a year.

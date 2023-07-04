@@ -17,7 +17,7 @@ class ChoroplethMap {
         let minMax = this.getMinMax();
 
         this.variableDomain = {
-            temperature: minMax['meanTemperature'],
+            temperature: minMax['maxTemperature'],
             ncdd: minMax['nCdd'],
             nhotdays: minMax['nHotDays40'],
         }
@@ -29,13 +29,13 @@ class ChoroplethMap {
         }
 
         this.variableDataMap = {
-            temperature: "meanTemperature",
+            temperature: "maxTemperature",
             ncdd: "nCdd",
             nhotdays: "nHotDays40",
         }
 
         this.variableLabelMap = {
-            temperature: "Mean Temperature (°C)",
+            temperature: "Max Temperature (°C)",
             ncdd: "Cooling Degree Days",
             nhotdays: "Number of Days Above 40°C",
         }
@@ -51,7 +51,7 @@ class ChoroplethMap {
                            .fitSize([vis.config.containerWidth, vis.config.containerHeight], vis.districtData);
         
 
-        // Create a colour scale based on the futureData meanTemperature
+        // Create a colour scale based on the futureData maxTemperature
         vis.colorScale = d3.scaleSequential()
             .domain(vis.variableDomain[vis.selectedVariable])
             .interpolator(d3.interpolateYlOrRd);
