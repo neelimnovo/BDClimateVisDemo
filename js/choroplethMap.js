@@ -35,7 +35,7 @@ class ChoroplethMap {
         }
 
         this.variableLabelMap = {
-            temperature: "Max Temperature (°C)",
+            temperature: "Annual Average Max Temperature (°C)",
             ncdd: "Cooling Degree Days",
             nhotdays: "Number of Days Above 40°C",
         }
@@ -71,7 +71,8 @@ class ChoroplethMap {
         vis.map = d3.select(vis.config.parentElement)
             .attr("width", vis.containerWidth)
             .attr("height", vis.containerHeight)
-            .append("g");
+            .append("g")
+            .attr("id", "map-path-group");
 
         d3.select("#climate-change-slider")
             .on("click", (event, d) => {
@@ -196,7 +197,8 @@ class ChoroplethMap {
                 }, 300); // transition duration
             });
 
-            vis.map.call(d3.zoom().on("zoom",  (e) => {
+            d3.select("#map-vis").call(d3.zoom()
+            .on("zoom",  (e) => {
                 vis.map.attr("transform", e.transform)
             }));
 
