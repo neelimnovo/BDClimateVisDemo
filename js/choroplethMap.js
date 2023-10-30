@@ -18,26 +18,26 @@ class ChoroplethMap {
 
         this.variableDomain = {
             temperature: minMax['maxTemperature'],
-            ncdd: minMax['nCdd'],
-            nhotdays: minMax['nHotDays40'],
+            minTemp: minMax['minTemperature'],
+            nTG26: minMax['nDaysTminMoreThan26'],
         }
 
         this.variableColourScheme = {
             temperature: d3.interpolateYlOrRd,
-            ncdd: d3.interpolateBlues,
-            nhotdays: d3.interpolateOrRd,
+            minTemp: d3.interpolateBlues,
+            nTG26: d3.interpolateOrRd,
         }
 
         this.variableDataMap = {
             temperature: "maxTemperature",
-            ncdd: "nCdd",
-            nhotdays: "nHotDays40",
+            minTemp: "minTemperature",
+            nTG26: "nDaysTminMoreThan26",
         }
 
         this.variableLabelMap = {
             temperature: "Annual Average Max Temperature (°C)",
-            ncdd: "Cooling Degree Days",
-            nhotdays: "Number of Days Above 40°C",
+            minTemp: "Annual Average Minimum Temperature (°C)",
+            nTG26: "Number of Days with Tmin greater than 26°C",
         }
 
         this.initVis();

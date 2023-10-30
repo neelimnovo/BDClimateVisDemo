@@ -185,6 +185,100 @@ def convert_tsv_to_json(file_path):
             json.dump(data_dict, f, indent=4)
 
 
+def write_from_csv_to_json(csv_path, json_path):
+    """
+    Given a CSV of this format
+    Name,Historic,New,Delta
+    Bagerhat,22.4,23.87777778,1.477777778
+    Bandarban,21.68,23.13714286,1.457142857
+
+    Load the csv file first, then
+
+    Load the given json of json_path of format
+    {
+    "districts": [
+        {
+            "id": "55",
+            "division_id": "4",
+            "name": "Bagerhat",
+            "bn_name": "\u09ac\u09be\u0997\u09c7\u09b0\u09b9\u09be\u099f",
+            "lat": "22.651568",
+            "long": "89.785938",
+            "historicalData": {
+                "timeRange": "1995-2014",
+                "maxTemperature": 31.5,
+                "minTemperature": 22.4,
+                "nHotDays40": 28.59
+            },
+            "futureData": {
+                "timeRange": "2050",
+                "maxTemperature": 32.92,
+                "minTemperature": 23.88,
+                "nHotDays40": 37.17
+            }
+        },
+    }
+
+    Then write the "historic" values of each row in the csv file into the ["historicalData"]["minTemperature"] key
+    for which the "Name" field of the csv file matches the "name" field of the json file
+    and the "new" values of each district into the ["futureData"]["minTemperature"] key
+    """
+    with open(csv_path, 'r') as f:
+        # Read the first line of the file
+        headers = f.readline().strip().split(',')
+        # Read the rest of the lines
+        lines = f.readlines()
+        # Create an empty list to store the data
+        data = []
+        # Iterate over the lines
+        for line in lines:
+            # Split the line into a list of values
+            values = line.strip().split(',')
+            # Create an empty dictionary to store the row
+            row = {}
+            # Iterate over the headers and values
+            for header, value in zip(headers, values):
+                # Add the value to the row dictionary using the header as the key
+                row[header] = value
+            # Add the row to the data list
+            data.append(row)
+        # Create a dictionary with the data list
+        data_dict = {'data': data}
+        # Write the dictionary to a JSON file
+
+        """
+            Then write the "historic" values of each row in the csv file into the ["historicalData"]["minTemperature"] key
+            for which the "Name" field of the csv file matches the "name" field of the json file
+            and the "new" values of each district into the ["futureData"]["minTemperature"] key
+        """
+        with open(json_path, 'r') as file:
+            # Read the json file into a dict
+            districts = json.load(file)
+            # Iterate over the districts in the json file
+            for district in districts['districts']:
+                for row in data:
+                    if district['name'] == row['Name']:
+                        district['historicalData']['minTemperature'] = float(row['Historic'])
+                        district['futureData']['minTemperature'] = float(row['New'])
+            # Save the modified districts into the json_path file
+            with open("data/generated_districts3.json", 'w') as file2:
+                json.dump(districts, file2, indent=4)
+
+def reloadCentroids(districts_json, new_json):
+     with open(new_json, 'r') as read_file:
+        data = json.load(read_file)
+        centroids = data['features']
+        with open(districts_json, 'r', encoding='utf-8') as write_file:
+            write_json = json.load(write_file)
+            for district in write_json['districts']:
+                for centroid in centroids:
+                    if district['name'] == centroid['properties']['NAME_3']:
+                        district['lat'] = centroid['geometry']['coordinates'][1]
+                        district['lon'] = centroid['geometry']['coordinates'][0]
+            with open("data/bd_districts3.json", 'w') as file2:
+                json.dump(write_json, file2, indent=2)
+
+    
 
 if __name__ == '__main__':
     # save_district_names('data/bd_districts.geojson', 'data/districts.txt')
@@ -194,5 +288,6 @@ if __name__ == '__main__':
     # generate_district_data('data/bd_districts.json')
     # print(os.getcwd())
     # generate_headlines_and_images('data/climate_stories.json')
-    convert_tsv_to_json('data/data.tsv')
+    # write_from_csv_to_json('data/sheetData.csv', 'data/generated_districts2.json')
+    reloadCentroids('data/bd_districts2.json', 'data/BDDistrictCentroids.geojson')
     
