@@ -2,121 +2,323 @@
     "Bagerhat": [
         {
             "headline": "Salinity threatens archaeological sites in Bangladesh | The Third Pole",
-            "image": "data/images/Bagerhat_1.jpg",
-            "url": "https://www.thethirdpole.net/en/culture/rising-salinity-threatens-archaeological-sites-bangladesh/"
+            "url": "https://www.thethirdpole.net/en/culture/rising-salinity-threatens-archaeological-sites-bangladesh/",
+            "tag": "news"
         },
         {
             "headline": "The Impact of Climate Change on Communities in Bagerhat \u2014 Google Arts & Culture",
-            "image": "data/images/Bagerhat_2.jpg",
-            "url": "https://artsandculture.google.com/story/the-impact-of-climate-change-on-communities-in-bagerhat-cyark/wgUhcDLv-NvT2A?hl=en"
+            "url": "https://artsandculture.google.com/story/the-impact-of-climate-change-on-communities-in-bagerhat-cyark/wgUhcDLv-NvT2A?hl=en",
+            "tag": "news"
         }
     ],
-    "Bandarban": "",
-    "Barguna": "",
+    "Bandarban": [
+        {
+            "headline": "Your land is my land: Environmental injustice in Bandarban | The Daily Star",
+            "url": "https://www.thedailystar.net/opinion/news/your-land-my-land-environmental-injustice-bandarban-2090541",
+            "tag": "news"
+        }
+    ],
+    "Barguna": [
+        {
+            "headline": "Rural digital service centres launched with village fairs as farmers embrace benefits of technology\u00a0|\u00a0FAO in Bangladesh\u00a0|\u00a0Food and Agriculture Organization of the United Nations",
+            "url": "https://www.fao.org/bangladesh/news/detail-events/en/c/1504841/",
+            "tag": "news"
+        }
+    ],
     "Barishal": [
         {
             "headline": "River erosion threatens villages in Barishal - Bangladesh Post",
-            "image": "data/images/Barishal_1.jpg",
-            "url": "https://bangladeshpost.net/posts/river-erosion-threatens-villages-in-barishal-92930"
+            "url": "https://bangladeshpost.net/posts/river-erosion-threatens-villages-in-barishal-92930",
+            "tag": "news"
         },
         {
             "headline": "Salinity affects people and agriculture in Barisal | Prothom Alo",
-            "image": "data/images/Barishal_2.jpg",
-            "url": "https://en.prothomalo.com/bangladesh/salinity-affects-people-and-agriculture-in-barisal"
+            "url": "https://en.prothomalo.com/bangladesh/salinity-affects-people-and-agriculture-in-barisal",
+            "tag": "news"
+        },
+        {
+            "headline": "Low-tech solutions for climate resilience in coastal Bangladesh | PreventionWeb",
+            "url": "https://www.preventionweb.net/news/low-tech-solutions-plus-improved-coordination-climate-resilience-coastal-bangladesh",
+            "tag": "news"
+        },
+        {
+            "headline": "Bangladesh: How climate-resilient farming is helping women \u00a0 \u2013 DW \u2013 01/03/2022",
+            "url": "https://www.dw.com/en/bangladesh-how-climate-resilient-farming-is-empowering-women/a-60316065",
+            "tag": "news"
+        },
+        {
+            "headline": "Is Hydroponics the future of farming in Bangladesh?",
+            "url": "https://www.dhakatribune.com/business/252050/is-hydroponics-the-future-of-farming-in",
+            "tag": "news"
+        },
+        {
+            "headline": "PDF",
+            "url": "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+            "tag": "Project"
+        },
+        {
+            "headline": "Climate solutions from Bangladesh: Climate-resilient housing - The Good Feed",
+            "url": "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/",
+            "tag": "news"
         }
     ],
-    "Bhola": "",
+    "Bhola": [
+        {
+            "headline": "PDF",
+            "url": "https://www.miga.org/sites/default/files/2021-09/ESAP%20Bhola%202.pdf",
+            "tag": "Project"
+        }
+    ],
     "Bogura": [
         {
             "headline": "29 spots in high risk of riverbank erosion",
-            "image": "data/images/Bogura_1.jpg",
-            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
+            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion",
+            "tag": "news"
+        },
+        {
+            "headline": "Rampal Power Plant: Govt to comply with Unesco conditions | The Daily Star",
+            "url": "https://www.thedailystar.net/frontpage/rampal-power-plant-govt-comply-unesco-conditions-1429999",
+            "tag": "news"
         }
     ],
     "Brahmanbaria": [],
     "Chandpur": [],
     "Chapainawabganj": [],
-    "Chattogram": [],
+    "Chattogram": [
+        {
+            "headline": "Chattogram mapping hills to prevent landslides | The Business Standard",
+            "url": "https://www.tbsnews.net/bangladesh/chattogram-mapping-hills-prevent-landslides-525962",
+            "tag": "news"
+        },
+        {
+            "headline": "Low-tech solutions for climate resilience in coastal Bangladesh | PreventionWeb",
+            "url": "https://www.preventionweb.net/news/low-tech-solutions-plus-improved-coordination-climate-resilience-coastal-bangladesh",
+            "tag": "news"
+        },
+        {
+            "headline": "PDF",
+            "url": "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+            "tag": "Project"
+        },
+        {
+            "headline": "A Holistic Business Approach to Building Climate Resilience amongst Farmers in Bangladesh | South Asia@LSE",
+            "url": "https://blogs.lse.ac.uk/southasia/2022/04/01/a-holistic-business-approach-to-building-climate-resilience-amongst-farmers-in-bangladesh/",
+            "tag": "news"
+        },
+        {
+            "headline": "Climate solutions from Bangladesh: Climate-resilient housing - The Good Feed",
+            "url": "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/",
+            "tag": "news"
+        },
+        {
+            "headline": "Building climate resilience into Bangladesh's coastal communities | WorldFish",
+            "url": "https://worldfishcenter.org/blog/building-climate-resilience-bangladeshs-coastal-communities",
+            "tag": "news"
+        },
+        {
+            "headline": "Kazi & Kazi Tea mitigates climate change impacts by using innovative and nature-friendly farming methods",
+            "url": "https://www.dhakatribune.com/science-technology-environment/climate-change/256373/kazi-kazi-tea-mitigates-climate-change-impacts",
+            "tag": "news"
+        }
+    ],
     "Chuadanga": [],
-    "Cox's Bazar": [],
+    "Cox's Bazar": [
+        {
+            "headline": "Beach clean-up held in Kuakata - Bangladesh Post",
+            "url": "https://bangladeshpost.net/posts/beach-clean-up-held-in-kuakata-76862",
+            "tag": "news"
+        },
+        {
+            "headline": "PDF",
+            "url": "https://www.riob.org/en/file/260337/download?token=eX59nz0-",
+            "tag": "Project"
+        },
+        {
+            "headline": "Climate solutions from Bangladesh: Climate-resilient housing - The Good Feed",
+            "url": "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/",
+            "tag": "news"
+        }
+    ],
     "Cumilla": [],
-    "Dhaka": [],
-    "Dinajpur": [],
-    "Faridpur": [],
-    "Feni": [],
+    "Dhaka": [
+        {
+            "headline": "Only farmers can protect the cultivable land | The Business Standard",
+            "url": "https://www.tbsnews.net/economy/agriculture/only-farmers-can-protect-cultivable-land-124345",
+            "tag": "news"
+        },
+        {
+            "headline": "Climate-hit businesses pin hopes on Bangladesh's new plan to adapt | Context",
+            "url": "https://www.context.news/climate-risks/climate-hit-businesses-pin-hopes-on-bangladeshs-new-plan-to-adapt",
+            "tag": "news"
+        }
+    ],
+    "Dinajpur": [
+        {
+            "headline": "Early mango buds creating hope for Dinajpur farmers - Bangladesh Post",
+            "url": "https://bangladeshpost.net/posts/early-mango-buds-creating-hope-for-dinajpur-farmers-54963",
+            "tag": "news"
+        }
+    ],
+    "Faridpur": [
+    ],
+    "Feni": [
+        {
+            "headline": "Feni starts producing fertiliser from garbage | The Business Standard",
+            "url": "https://www.tbsnews.net/bangladesh/environment/feni-starts-producing-fertiliser-garbage-304417",
+            "tag": "news"
+        }
+    ],
     "Gaibandha": [
         {
             "headline": "Cluster villages being built for erosion victims in Gaibandha | The Daily Star",
-            "image": "",
-            "url": "https://www.thedailystar.net/news/cluster-villages-being-built-for-erosion-victims-in-gaibandha"
+            "url": "https://www.thedailystar.net/news/cluster-villages-being-built-for-erosion-victims-in-gaibandha",
+            "tag": "news"
         },
         {
             "headline": "Finance News: Latest Financial News, Finance News today in Bangladesh",
-            "image": "data/images/Gaibandha_2.jpg",
-            "url": "https://today.thefinancialexpress.com.bd/metro-news/plight-of-gaibandha-climate-victims-knows-no-bounds-1680366511"
+            "url": "https://today.thefinancialexpress.com.bd/metro-news/plight-of-gaibandha-climate-victims-knows-no-bounds-1680366511",
+            "tag": "news"
         },
         {
             "headline": "Teesta erosion: Over 100 families left homeless in Kurigram, Gaibandha | The Business Standard",
-            "image": "data/images/Gaibandha_3.jpg",
-            "url": "https://www.tbsnews.net/bangladesh/environment/teesta-erosion-over-100-families-left-homeless-kurigram-gaibandha-470106"
+            "url": "https://www.tbsnews.net/bangladesh/environment/teesta-erosion-over-100-families-left-homeless-kurigram-gaibandha-470106",
+            "tag": "news"
         }
     ],
     "Gazipur": [],
     "Gopalganj": [],
     "Habiganj": [],
-    "Jamalpur": [],
-    "Jashore": [
+    "Jamalpur": [
         {
-            "headline": "\n        \u2018Local media workers can play key role in river protection\u2019\n    ",
-            "image": "data/images/Jashore_1.jpg",
-            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection"
+            "headline": "Let there be light!",
+            "url": "https://www.thedailystar.net/frontpage/let-there-be-light-1531027",
+            "tag": "news"
+        },
+        {
+            "headline": "Huge programmes to save environment in Jamalpur",
+            "url": "https://www.daily-sun.com/printversion/details/449029/Huge-programmes-to-save-environment-in-Jamalpur",
+            "tag": "news"
         }
     ],
-    "Jhalokati": [],
+    "Jashore": [
+        {
+            "headline": "\u2018Local media workers can play key role in river protection\u2019",
+            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection",
+            "tag": "news"
+        }
+    ],
+    "Jhalokati": [
+        {
+            "headline": "Experts bat for master plan to tackle climate change in coastal districts",
+            "url": "https://www.dhakatribune.com/bangladesh/287231/experts-bat-for-master-plan-to-tackle-climate",
+            "tag": "news"
+        }
+    ],
     "Jhenaidah": [
         {
-            "headline": "\n        \u2018Local media workers can play key role in river protection\u2019\n    ",
-            "image": "data/images/Jhenaidah_1.jpg",
-            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection"
+            "headline": "\u2018Local media workers can play key role in river protection\u2019",
+            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection",
+            "tag": "news"
         }
     ],
     "Joypurhat": [],
     "Khagrachari": [],
     "Khulna": [
         {
-            "headline": "\n        \u2018Local media workers can play key role in river protection\u2019\n    ",
-            "image": "data/images/Khulna_1.jpg",
-            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection"
+            "headline": "\u2018Local media workers can play key role in river protection\u2019",
+            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection",
+            "tag": "news"
         },
         {
             "headline": "What is destroying Khulna rivers? | The Business Standard",
-            "image": "data/images/Khulna_2.jpg",
-            "url": "https://www.tbsnews.net/bangladesh/what-destroying-khulna-rivers-433450"
+            "url": "https://www.tbsnews.net/bangladesh/what-destroying-khulna-rivers-433450",
+            "tag": "news"
+        },
+        {
+            "headline": "Low-tech solutions for climate resilience in coastal Bangladesh | PreventionWeb",
+            "url": "https://www.preventionweb.net/news/low-tech-solutions-plus-improved-coordination-climate-resilience-coastal-bangladesh",
+            "tag": "news"
+        },
+        {
+            "headline": "Bangladesh: How climate-resilient farming is helping women \u00a0 \u2013 DW \u2013 01/03/2022",
+            "url": "https://www.dw.com/en/bangladesh-how-climate-resilient-farming-is-empowering-women/a-60316065",
+            "tag": "news"
+        },
+        {
+            "headline": "Is Hydroponics the future of farming in Bangladesh?",
+            "url": "https://www.dhakatribune.com/business/252050/is-hydroponics-the-future-of-farming-in",
+            "tag": "news"
+        },
+        {
+            "headline": "Innovative Solutions for Climate Resilience: Lessons from Bangladesh's Coastal Communities | United Nations Development Programme",
+            "url": "https://www.undp.org/bangladesh/blog/innovative-solutions-climate-resilience-lessons-bangladeshs-coastal-communities",
+            "tag": "news"
+        },
+        {
+            "headline": "PDF",
+            "url": "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+            "tag": "Project"
+        },
+        {
+            "headline": "A Holistic Business Approach to Building Climate Resilience amongst Farmers in Bangladesh | South Asia@LSE",
+            "url": "https://blogs.lse.ac.uk/southasia/2022/04/01/a-holistic-business-approach-to-building-climate-resilience-amongst-farmers-in-bangladesh/",
+            "tag": "news"
+        },
+        {
+            "headline": "Climate solutions from Bangladesh: Climate-resilient housing - The Good Feed",
+            "url": "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/",
+            "tag": "news"
+        },
+        {
+            "headline": "Banishanta, Bangladesh: Local weathercasters combat climate change - Global Resilience Partnership",
+            "url": "https://www.globalresiliencepartnership.org/banishanta-bangladesh-local-weathercasters-combat-climate-change/",
+            "tag": "news"
+        },
+        {
+            "headline": "Climate resilience through local empowerment | The Daily Star",
+            "url": "https://www.thedailystar.net/supplements-0/news/climate-resilience-through-local-empowerment-3307751",
+            "tag": "news"
         }
     ],
     "Kishoreganj": [],
     "Kurigram": [
         {
             "headline": "Teesta erosion: Over 100 families left homeless in Kurigram, Gaibandha | The Business Standard",
-            "image": "data/images/Kurigram_1.jpg",
-            "url": "https://www.tbsnews.net/bangladesh/environment/teesta-erosion-over-100-families-left-homeless-kurigram-gaibandha-470106"
+            "url": "https://www.tbsnews.net/bangladesh/environment/teesta-erosion-over-100-families-left-homeless-kurigram-gaibandha-470106",
+            "tag": "news"
         },
         {
             "headline": "29 spots in high risk of riverbank erosion",
-            "image": "data/images/Kurigram_2.jpg",
-            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
+            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion",
+            "tag": "news"
+        },
+        {
+            "headline": "FEATURE: Kurigram, Bangladesh \u2013 Rural women together tackling multiple crises - Bangladesh | ReliefWeb",
+            "url": "https://reliefweb.int/report/bangladesh/feature-kurigram-bangladesh-rural-women-together-tackling-multiple-crises",
+            "tag": "news"
         }
     ],
     "Kushtia": [],
     "Lakshmipur": [],
-    "Lalmonirhat": [],
+    "Lalmonirhat": [
+        {
+            "headline": "District level consultation on NAP formulation held at Lalmonirhat | The Business Standard",
+            "url": "https://www.tbsnews.net/bangladesh/district-level-consultation-nap-formulation-held-lalmonirhat-304711",
+            "tag": "news"
+        }
+    ],
     "Madaripur": [],
     "Magura": [],
     "Manikganj": [
         {
             "headline": "Flood situation worsens in Manikganj | The Daily Star",
-            "image": "data/images/Manikganj_1.jpg",
-            "url": "https://www.thedailystar.net/country/news/flood-situation-worsens-manikganj-1774291"
+            "url": "https://www.thedailystar.net/country/news/flood-situation-worsens-manikganj-1774291",
+            "tag": "news"
+        },
+        {
+            "headline": "Emergency expenditures to prevent river erosion in Manikganj of \u2018no use\u2019 | The Business Standard",
+            "url": "https://www.tbsnews.net/environment/emergency-expenditures-prevent-river-erosion-manikganj-no-use-130303",
+            "tag": "news"
         }
     ],
     "Meherpur": [],
@@ -126,77 +328,149 @@
     "Naogaon": [
         {
             "headline": "Tulsiganga: The demise of a river | The Business Standard",
-            "image": "data/images/Naogaon_1.jpg",
-            "url": "https://www.tbsnews.net/bangladesh/environment/tulsiganga-demise-river-423834"
+            "url": "https://www.tbsnews.net/bangladesh/environment/tulsiganga-demise-river-423834",
+            "tag": "news"
         }
     ],
     "Narail": [],
-    "Narayanganj": [],
-    "Narsingdi": [],
-    "Natore": [],
+    "Narayanganj": [
+        {
+            "headline": "Narayanganj city furthers its \u2018low emission urban development\u2019 through innovative pilot projects \u2013 Urban LEDS",
+            "url": "https://urban-leds.org/narayanganj-city-furthers-its-low-emission-urban-development-through-innovative-pilot-projects-2/",
+            "tag": "news"
+        }
+    ],
+    "Narsingdi": [
+        {
+            "headline": "Agro-based programmes bring solvency for Narsingdi char people | The Financial Express",
+            "url": "https://thefinancialexpress.com.bd/national/country/agro-based-programmes-bring-solvency-for-narsingdi-char-people-1598093775",
+            "tag": "news"
+        }
+    ],
+    "Natore": [
+        {
+            "headline": "(PDF) Understanding the Relationship between Aquaculture and Poverty: The Case of Gurudaspur, Natore | Nazmul Ahsan Khan - Academia.edu",
+            "url": "https://www.academia.edu/68547712/Understanding_the_Relationship_between_Aquaculture_and_Poverty_The_Case_of_Gurudaspur_Natore",
+            "tag": "news"
+        }
+    ],
     "Netrokona": [],
     "Nilphamari": [],
     "Noakhali": [],
     "Pabna": [
         {
             "headline": "Industrial waste pollutes environment in Pabna",
-            "image": "data/images/Pabna_1.jpg",
-            "url": "https://www.observerbd.com/news.php?id=294032"
+            "url": "https://www.observerbd.com/news.php?id=294032",
+            "tag": "news"
         }
     ],
     "Panchagarh": [],
-    "Patuakhali": [],
+    "Patuakhali": [
+        {
+            "headline": "Only farmers can protect the cultivable land | The Business Standard",
+            "url": "https://www.tbsnews.net/economy/agriculture/only-farmers-can-protect-cultivable-land-124345",
+            "tag": "news"
+        },
+        {
+            "headline": "Crop diversification for Bangladeshi farmers boosts climate resilience and profits | United Nations in Bangladesh",
+            "url": "https://bangladesh.un.org/en/160715-crop-diversification-bangladeshi-farmers-boosts-climate-resilience-and-profits",
+            "tag": "news"
+        }
+    ],
     "Pirojpur": [
         {
             "headline": "Pure water crisis across half of Pirojpur district | The Daily Star",
-            "image": "data/images/Pirojpur_1.jpg",
-            "url": "https://www.thedailystar.net/country/pure-water-crisis-across-half-pirojpur-district-783283"
+            "url": "https://www.thedailystar.net/country/pure-water-crisis-across-half-pirojpur-district-783283",
+            "tag": "news"
+        },
+        {
+            "headline": "PDF",
+            "url": "https://ewsdata.rightsindevelopment.org/files/documents/13/ADB-44212-013_6I1cw21.pdf",
+            "tag": "Project"
         }
     ],
     "Rajbari": [
         {
             "headline": "29 spots in high risk of riverbank erosion",
-            "image": "data/images/Rajbari_1.jpg",
-            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
+            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion",
+            "tag": "news"
         }
     ],
     "Rajshahi": [
         {
             "headline": "Drought-like situation prevails in Rajshahi | Prothom Alo",
-            "image": "data/images/Rajshahi_1.jpg",
-            "url": "https://en.prothomalo.com/environment/drought-like-situation-prevails-in-rajshahi"
+            "url": "https://en.prothomalo.com/environment/drought-like-situation-prevails-in-rajshahi",
+            "tag": "news"
         },
         {
             "headline": "Urban development must be planned and climate-resilient: Experience from Rajshahi City, Bangladesh | Climate & Development Knowledge Network",
-            "image": "data/images/Rajshahi_2.jpg",
-            "url": "https://cdkn.org/story/feature-urban-development-must-be-planned-and-climate-resilient-experience-from-rajshahi-city-bangladesh"
+            "url": "https://cdkn.org/story/feature-urban-development-must-be-planned-and-climate-resilient-experience-from-rajshahi-city-bangladesh",
+            "tag": "news"
+        },
+        {
+            "headline": "PDF",
+            "url": "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+            "tag": "Project"
+        },
+        {
+            "headline": "Climate-resilient technology delights fish farmers in Rajshahi",
+            "url": "https://www.dhakatribune.com/bangladesh/291308/climate-resilient-technology-delights-fish-farmers",
+            "tag": "news"
         }
     ],
     "Rangamati": [],
-    "Rangpur": [],
+    "Rangpur": [
+        {
+            "headline": "Farmers in Northwestern Bangladesh learn to grow climate friendly rice | Climate & Clean Air Coalition",
+            "url": "https://www.ccacoalition.org/news/farmers-northwestern-bangladesh-learn-grow-climate-friendly-rice",
+            "tag": "news"
+        }
+    ],
     "Satkhira": [
         {
-            "headline": "\n        \u2018Local media workers can play key role in river protection\u2019\n    ",
-            "image": "data/images/Satkhira_1.jpg",
-            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection"
+            "headline": "\u2018Local media workers can play key role in river protection\u2019",
+            "url": "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection",
+            "tag": "news"
         },
         {
             "headline": "The water benders of Satkhira | The Daily Star",
-            "image": "data/images/Satkhira_2.jpg",
-            "url": "https://www.thedailystar.net/star-weekend/environment/news/the-water-benders-satkhira-1676515"
+            "url": "https://www.thedailystar.net/star-weekend/environment/news/the-water-benders-satkhira-1676515",
+            "tag": "news"
+        },
+        {
+            "headline": "Better farming practices for resilient livelihoods in saline and flood-prone Bangladesh (May 2017) - Bangladesh | ReliefWeb",
+            "url": "https://reliefweb.int/report/bangladesh/better-farming-practices-resilient-livelihoods-saline-and-flood-prone-bangladesh",
+            "tag": "news"
+        },
+        {
+            "headline": "SALUS - Article - Climate-sensitive Bangladesh hospital named world\u2019s best new building ",
+            "url": "https://salus.global/article-show/climate-sensitive-bangladesh-hospital-named-world-s-best-new-building",
+            "tag": "news"
         }
     ],
     "Shariatpur": [
         {
             "headline": "29 spots in high risk of riverbank erosion",
-            "image": "data/images/Shariatpur_1.jpg",
-            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
+            "url": "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion",
+            "tag": "news"
         }
     ],
     "Sherpur": [],
     "Sirajganj": [],
-    "Sunamganj": [],
+    "Sunamganj": [
+        {
+            "headline": "Sunamganj Community-Based Resource Management Project",
+            "url": "https://www.ifad.org/en/web/operations/-/project/1100001165",
+            "tag": "news"
+        }
+    ],
     "Sylhet": [],
-    "Tangail": [],
+    "Tangail": [
+        {
+            "headline": "\u2018Peace of mind at last\u2019: the Bangladeshi villagers digging their way out of the floods | Global development | The Guardian",
+            "url": "https://www.theguardian.com/global-development/2023/may/04/bangladeshi-villagers-digging-their-way-out-of-the-floods-plinth-settlements",
+            "tag": "news"
+        }
+    ],
     "Thakurgaon": []
 }

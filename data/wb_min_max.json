@@ -1,0 +1,142 @@
+{
+    "cdd65": {
+        "climatology": [
+            4263.02,
+            6929.36
+        ],
+        "anomaly": [
+            219.55,
+            1789.8
+        ]
+    },
+    "hd35": {
+        "climatology": [
+            2.31,
+            94.45
+        ],
+        "anomaly": [
+            2.06,
+            65.93
+        ]
+    },
+    "hd45": {
+        "climatology": [
+            0,
+            0.04
+        ],
+        "anomaly": [
+            0,
+            0.1
+        ]
+    },
+    "hd40": {
+        "climatology": [
+            0,
+            10.45
+        ],
+        "anomaly": [
+            0,
+            9.32
+        ]
+    },
+    "prpercnt": {
+        "climatology": [
+            94.61,
+            107.87
+        ],
+        "anomaly": [
+            -5.26,
+            12.9
+        ]
+    },
+    "r50mm": {
+        "climatology": [
+            1,
+            13.3
+        ],
+        "anomaly": [
+            0.07,
+            3.5
+        ]
+    },
+    "rx1day": {
+        "climatology": [
+            81.07,
+            169.96
+        ],
+        "anomaly": [
+            -1.89,
+            21.65
+        ]
+    },
+    "rx5day": {
+        "climatology": [
+            231.76,
+            537.05
+        ],
+        "anomaly": [
+            -0.81,
+            87.36
+        ]
+    },
+    "sd": {
+        "climatology": [
+            320.53,
+            362.83
+        ],
+        "anomaly": [
+            5.04,
+            36.17
+        ]
+    },
+    "tasmax": {
+        "climatology": [
+            29.07,
+            32.89
+        ],
+        "anomaly": [
+            0.21,
+            2.62
+        ]
+    },
+    "tasmin": {
+        "climatology": [
+            20.32,
+            25.55
+        ],
+        "anomaly": [
+            0.45,
+            3.14
+        ]
+    },
+    "tr26": {
+        "climatology": [
+            34.07,
+            222.42
+        ],
+        "anomaly": [
+            21.57,
+            140.42
+        ]
+    },
+    "tr29": {
+        "climatology": [
+            0,
+            70.42
+        ],
+        "anomaly": [
+            0,
+            72.54
+        ]
+    },
+    "txx": {
+        "climatology": [
+            36.1,
+            44.14
+        ],
+        "anomaly": [
+            0.06,
+            3.17
+        ]
+    }
+}

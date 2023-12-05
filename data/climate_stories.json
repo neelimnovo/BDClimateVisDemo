@@ -3,104 +3,230 @@
         "https://www.thethirdpole.net/en/culture/rising-salinity-threatens-archaeological-sites-bangladesh/",
         "https://artsandculture.google.com/story/the-impact-of-climate-change-on-communities-in-bagerhat-cyark/wgUhcDLv-NvT2A?hl=en"
     ],
-    "Bandarban": "",
-    "Barguna": "",
+    "Bandarban": [
+        "https://www.thedailystar.net/opinion/news/your-land-my-land-environmental-injustice-bandarban-2090541"
+    ],
+    "Barguna": [
+        "https://www.fao.org/bangladesh/news/detail-events/en/c/1504841/"
+    ],
     "Barishal": [
         "https://bangladeshpost.net/posts/river-erosion-threatens-villages-in-barishal-92930",
-        "https://en.prothomalo.com/bangladesh/salinity-affects-people-and-agriculture-in-barisal"
+        "https://en.prothomalo.com/bangladesh/salinity-affects-people-and-agriculture-in-barisal",
+        "https://www.preventionweb.net/news/low-tech-solutions-plus-improved-coordination-climate-resilience-coastal-bangladesh",
+        "https://www.dw.com/en/bangladesh-how-climate-resilient-farming-is-empowering-women/a-60316065",
+        "https://www.dhakatribune.com/business/252050/is-hydroponics-the-future-of-farming-in",
+        "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+        "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/"
     ],
-    "Bhola": "",
+    "Bhola": [
+        "https://www.miga.org/sites/default/files/2021-09/ESAP%20Bhola%202.pdf"
+    ],
     "Bogura": [
-        "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
+        "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion",
+        "https://www.thedailystar.net/frontpage/rampal-power-plant-govt-comply-unesco-conditions-1429999"
     ],
-    "Brahmanbaria": [],
-    "Chandpur": [],
-    "Chapainawabganj": [],
-    "Chattogram": [],
-    "Chuadanga": [],
-    "Cox's Bazar": [],
+    "Brahmanbaria": [
+    ],
+    "Chandpur": [
+        
+    ],
+    "Chapainawabganj": [
+        
+    ],
+    "Chattogram": [
+        "https://www.tbsnews.net/bangladesh/chattogram-mapping-hills-prevent-landslides-525962",
+        "https://www.preventionweb.net/news/low-tech-solutions-plus-improved-coordination-climate-resilience-coastal-bangladesh",
+        "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+        "https://blogs.lse.ac.uk/southasia/2022/04/01/a-holistic-business-approach-to-building-climate-resilience-amongst-farmers-in-bangladesh/",
+        "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/",
+        "https://worldfishcenter.org/blog/building-climate-resilience-bangladeshs-coastal-communities",
+        "https://www.dhakatribune.com/science-technology-environment/climate-change/256373/kazi-kazi-tea-mitigates-climate-change-impacts"
+    ],
+    "Chuadanga": [
+        
+    ],
+    "Cox's Bazar": [
+        "https://bangladeshpost.net/posts/beach-clean-up-held-in-kuakata-76862",
+        "https://www.riob.org/en/file/260337/download?token=eX59nz0-",
+        "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/"
+    ],
     "Cumilla": [],
-    "Dhaka": [],
-    "Dinajpur": [],
-    "Faridpur": [],
-    "Feni": [],
+    "Dhaka": [
+        "https://www.tbsnews.net/economy/agriculture/only-farmers-can-protect-cultivable-land-124345",
+        "https://www.context.news/climate-risks/climate-hit-businesses-pin-hopes-on-bangladeshs-new-plan-to-adapt"
+    ],
+    "Dinajpur": [
+        "https://bangladeshpost.net/posts/early-mango-buds-creating-hope-for-dinajpur-farmers-54963"
+    ],
+    "Faridpur": [
+        
+    ],
+    "Feni": [
+        "https://www.tbsnews.net/bangladesh/environment/feni-starts-producing-fertiliser-garbage-304417"
+    ],
     "Gaibandha": [
         "https://www.thedailystar.net/news/cluster-villages-being-built-for-erosion-victims-in-gaibandha",
         "https://today.thefinancialexpress.com.bd/metro-news/plight-of-gaibandha-climate-victims-knows-no-bounds-1680366511",
         "https://www.tbsnews.net/bangladesh/environment/teesta-erosion-over-100-families-left-homeless-kurigram-gaibandha-470106"
     ],
-    "Gazipur": [],
-    "Gopalganj": [],
-    "Habiganj": [],
-    "Jamalpur": [],
+    "Gazipur": [
+        
+    ],
+    "Gopalganj": [
+        
+    ],
+    "Habiganj": [
+        
+    ],
+    "Jamalpur": [
+        "https://www.thedailystar.net/frontpage/let-there-be-light-1531027",
+        "https://www.daily-sun.com/printversion/details/449029/Huge-programmes-to-save-environment-in-Jamalpur"
+    ],
     "Jashore": [
         "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection"
     ],
-    "Jhalokati": [],
+    "Jhalokati": [
+        "https://www.dhakatribune.com/bangladesh/287231/experts-bat-for-master-plan-to-tackle-climate"
+    ],
     "Jhenaidah": [
         "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection"
     ],
-    "Joypurhat": [],
-    "Khagrachari": [],
+    "Joypurhat": [
+        
+    ],
+    "Khagrachari": [
+        
+    ],
     "Khulna": [
         "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection",
-        "https://www.tbsnews.net/bangladesh/what-destroying-khulna-rivers-433450"
+        "https://www.tbsnews.net/bangladesh/what-destroying-khulna-rivers-433450",
+        "https://www.preventionweb.net/news/low-tech-solutions-plus-improved-coordination-climate-resilience-coastal-bangladesh",
+        "https://www.dw.com/en/bangladesh-how-climate-resilient-farming-is-empowering-women/a-60316065",
+        "https://www.dhakatribune.com/business/252050/is-hydroponics-the-future-of-farming-in",
+        "https://www.undp.org/bangladesh/blog/innovative-solutions-climate-resilience-lessons-bangladeshs-coastal-communities",
+        "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+        "https://blogs.lse.ac.uk/southasia/2022/04/01/a-holistic-business-approach-to-building-climate-resilience-amongst-farmers-in-bangladesh/",
+        "https://blog.brac.net/climate-solutions-from-bangladesh-climate-resilient-housing/",
+        "https://www.globalresiliencepartnership.org/banishanta-bangladesh-local-weathercasters-combat-climate-change/",
+        "https://www.thedailystar.net/supplements-0/news/climate-resilience-through-local-empowerment-3307751"
     ],
-    "Kishoreganj": [],
+    "Kishoreganj": [
+        
+    ],
     "Kurigram": [
         "https://www.tbsnews.net/bangladesh/environment/teesta-erosion-over-100-families-left-homeless-kurigram-gaibandha-470106",
-        "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
+        "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion",
+        "https://reliefweb.int/report/bangladesh/feature-kurigram-bangladesh-rural-women-together-tackling-multiple-crises"
     ],
-    "Kushtia": [],
-    "Lakshmipur": [],
-    "Lalmonirhat": [],
-    "Madaripur": [],
-    "Magura": [],
+    "Kushtia": [
+        
+    ],
+    "Lakshmipur": [
+        
+    ],
+    "Lalmonirhat": [
+        "https://www.tbsnews.net/bangladesh/district-level-consultation-nap-formulation-held-lalmonirhat-304711"
+    ],
+    "Madaripur": [
+        
+    ],
+    "Magura": [
+        
+    ],
     "Manikganj": [
-        "https://www.thedailystar.net/country/news/flood-situation-worsens-manikganj-1774291"
+        "https://www.thedailystar.net/country/news/flood-situation-worsens-manikganj-1774291",
+        "https://www.tbsnews.net/environment/emergency-expenditures-prevent-river-erosion-manikganj-no-use-130303"
     ],
-    "Meherpur": [],
-    "Moulvibazar": [],
-    "Munshiganj": [],
-    "Mymensingh": [],
+    "Meherpur": [
+        
+    ],
+    "Moulvibazar": [
+        
+    ],
+    "Munshiganj": [
+        
+    ],
+    "Mymensingh": [
+        
+    ],
     "Naogaon": [
         "https://www.tbsnews.net/bangladesh/environment/tulsiganga-demise-river-423834"
     ],
-    "Narail": [],
-    "Narayanganj": [],
-    "Narsingdi": [],
-    "Natore": [],
-    "Netrokona": [],
-    "Nilphamari": [],
-    "Noakhali": [],
+    "Narail": [
+        
+    ],
+    "Narayanganj": [
+        "https://urban-leds.org/narayanganj-city-furthers-its-low-emission-urban-development-through-innovative-pilot-projects-2/"
+    ],
+    "Narsingdi": [
+        "https://thefinancialexpress.com.bd/national/country/agro-based-programmes-bring-solvency-for-narsingdi-char-people-1598093775"
+    ],
+    "Natore": [
+        "https://www.academia.edu/68547712/Understanding_the_Relationship_between_Aquaculture_and_Poverty_The_Case_of_Gurudaspur_Natore"
+    ],
+    "Netrokona": [
+        
+    ],
+    "Nilphamari": [
+        
+    ],
+    "Noakhali": [
+        
+    ],
     "Pabna": [
         "https://www.observerbd.com/news.php?id=294032"
     ],
-    "Panchagarh": [],
-    "Patuakhali": [],
+    "Panchagarh": [
+        
+    ],
+    "Patuakhali": [
+        "https://www.tbsnews.net/economy/agriculture/only-farmers-can-protect-cultivable-land-124345",
+        "https://bangladesh.un.org/en/160715-crop-diversification-bangladeshi-farmers-boosts-climate-resilience-and-profits"
+    ],
     "Pirojpur": [
-        "https://www.thedailystar.net/country/pure-water-crisis-across-half-pirojpur-district-783283"
+        "https://www.thedailystar.net/country/pure-water-crisis-across-half-pirojpur-district-783283",
+        "https://ewsdata.rightsindevelopment.org/files/documents/13/ADB-44212-013_6I1cw21.pdf"
     ],
     "Rajbari": [
         "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
     ],
     "Rajshahi": [
         "https://en.prothomalo.com/environment/drought-like-situation-prevails-in-rajshahi",
-        "https://cdkn.org/story/feature-urban-development-must-be-planned-and-climate-resilient-experience-from-rajshahi-city-bangladesh"
+        "https://cdkn.org/story/feature-urban-development-must-be-planned-and-climate-resilient-experience-from-rajshahi-city-bangladesh",
+        "http://www.manusherjonno.org/wp-content/uploads/2020/10/Climate%20Resilient%20Agriculture%20in%20Coastal%20and%20Flood-plain%20Regions%20of%20Bangladesh.pdf",
+        "https://www.dhakatribune.com/bangladesh/291308/climate-resilient-technology-delights-fish-farmers"
     ],
-    "Rangamati": [],
-    "Rangpur": [],
+    "Rangamati": [
+        
+    ],
+    "Rangpur": [
+        "https://www.ccacoalition.org/news/farmers-northwestern-bangladesh-learn-grow-climate-friendly-rice"
+    ],
     "Satkhira": [
         "https://www.dhakatribune.com/bangladesh/2022/11/25/local-media-workers-can-prevent-river-protection",
-        "https://www.thedailystar.net/star-weekend/environment/news/the-water-benders-satkhira-1676515"
+        "https://www.thedailystar.net/star-weekend/environment/news/the-water-benders-satkhira-1676515",
+        "https://reliefweb.int/report/bangladesh/better-farming-practices-resilient-livelihoods-saline-and-flood-prone-bangladesh",
+        "https://salus.global/article-show/climate-sensitive-bangladesh-hospital-named-world-s-best-new-building"
     ],
     "Shariatpur": [
         "https://www.brac.net/latest-news/item/1081-29-spots-in-high-risk-of-riverbank-erosion"
     ],
-    "Sherpur": [],
-    "Sirajganj": [],
-    "Sunamganj": [],
-    "Sylhet": [],
-    "Tangail": [],
-    "Thakurgaon": []
+    "Sherpur": [
+        
+    ],
+    "Sirajganj": [
+        
+    ],
+    "Sunamganj": [
+        "https://www.ifad.org/en/web/operations/-/project/1100001165"
+    ],
+    "Sylhet": [
+        
+    ],
+    "Tangail": [
+        "https://www.theguardian.com/global-development/2023/may/04/bangladeshi-villagers-digging-their-way-out-of-the-floods-plinth-settlements"
+    ],
+    "Thakurgaon": [
+        
+    ]
 }

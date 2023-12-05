@@ -1,0 +1,156 @@
+{
+    "cdd65": {
+        "climatology": [
+            4263.02,
+            6929.36
+        ],
+        "anomaly": [
+            217.46,
+            1789.8
+        ],
+        "variableAvg": 5567.065833333332
+    },
+    "hd35": {
+        "climatology": [
+            2.31,
+            94.45
+        ],
+        "anomaly": [
+            1.63,
+            65.93
+        ],
+        "variableAvg": 32.41638888888889
+    },
+    "hd45": {
+        "climatology": [
+            0,
+            0.04
+        ],
+        "anomaly": [
+            0,
+            0.1
+        ],
+        "variableAvg": 0.0011111111111111111
+    },
+    "hd40": {
+        "climatology": [
+            0,
+            10.45
+        ],
+        "anomaly": [
+            0,
+            9.32
+        ],
+        "variableAvg": 1.25
+    },
+    "prpercnt": {
+        "climatology": [
+            94.61,
+            107.87
+        ],
+        "anomaly": [
+            -5.26,
+            12.9
+        ],
+        "variableAvg": 100.24694444444441
+    },
+    "r50mm": {
+        "climatology": [
+            1,
+            13.3
+        ],
+        "anomaly": [
+            0.07,
+            3.5
+        ],
+        "variableAvg": 3.737638888888889
+    },
+    "rx1day": {
+        "climatology": [
+            81.07,
+            169.96
+        ],
+        "anomaly": [
+            -1.89,
+            21.65
+        ],
+        "variableAvg": 108.16847222222219
+    },
+    "rx5day": {
+        "climatology": [
+            231.76,
+            537.05
+        ],
+        "anomaly": [
+            -0.81,
+            87.36
+        ],
+        "variableAvg": 328.5304166666666
+    },
+    "sd": {
+        "climatology": [
+            320.53,
+            362.83
+        ],
+        "anomaly": [
+            3.07,
+            36.17
+        ],
+        "variableAvg": 348.43791666666664
+    },
+    "tasmax": {
+        "climatology": [
+            29.07,
+            32.89
+        ],
+        "anomaly": [
+            0.21,
+            2.62
+        ],
+        "variableAvg": 30.908472222222226
+    },
+    "tasmin": {
+        "climatology": [
+            20.32,
+            25.55
+        ],
+        "anomaly": [
+            0.45,
+            3.14
+        ],
+        "variableAvg": 22.649444444444445
+    },
+    "tr26": {
+        "climatology": [
+            34.07,
+            222.42
+        ],
+        "anomaly": [
+            21.06,
+            140.42
+        ],
+        "variableAvg": 134.87625
+    },
+    "tr29": {
+        "climatology": [
+            0,
+            70.42
+        ],
+        "anomaly": [
+            0,
+            72.54
+        ],
+        "variableAvg": 8.399861111111115
+    },
+    "txx": {
+        "climatology": [
+            36.1,
+            44.25
+        ],
+        "anomaly": [
+            -0.03,
+            3.17
+        ],
+        "variableAvg": 39.82750000000001
+    }
+}
